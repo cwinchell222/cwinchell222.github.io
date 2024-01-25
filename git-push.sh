@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#Shell script not working properly. Does NOT update any files in REPO
 git status
 git add .
 echo 'Enter a commit comment: '
