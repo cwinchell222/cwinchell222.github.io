@@ -29,7 +29,11 @@
 
     }
     h2{
+        /* font-style: italic; */
         border-bottom-style: solid;
+    }
+    h3{
+        font-style: italic;
     }
 </style>
 <body>
@@ -55,21 +59,103 @@
         <h2>  Education </h2>
     </div>
     <p>- Bridgewater State University, Bridgewater MA</p>
-    <p>- Bachelor of Science (BS) degree in Computer Science (cum laude)</p>
+    <p>- Bachelor of Science (BS) degree in Computer Science (cum laude) <strong>Graduation: May 2024</strong></p>
     <p>- GPA: 3.7</p>
 
     <div class = "center">
         <h2> Technical Skills </h2>
     </div>
     <p>- <strong>Programming Languages: </strong>Python, Bash Java, C++, C#</p> 
-    <p>- <strong> Scripting Languages: </strong> 		Bash, Python	</p>
+    <p>- <strong> Scripting Languages: </strong> Bash, Python	</p>
     <p>- <strong>Certifications: </strong> Extron Certified A/V Associate, ISC2 Certificate of Cybersecurity</p>  
     <p>- <strong>Version Control Tool: </strong>Git </p> 
     <p>- <strong>Collaboration Tools:  </strong>Microsoft Teams, Zoom</p>
     <p>- <strong>Operating Systems:  </strong>Linux, MacOS, Windows</p>
 
     <div class = "center">
+        <h2> Work Experience </h2>
+    </div>
+    <div class = "center">
+        <h3> Endpoint Services Apprenticeship </h3>
+        <h4> <small>IT Support Center/Endpoint Services, BSU, Bridgewater, MA | January 2024 – Current </small></h4>
+    </div>
+    <p>- Perform MFA and password resets using Microsoft Azure and Active Directory for faculty and student accounts. </p>
+    <p>- Document, maintain, monitor, and resolve ticket requests using internal ticketing system. </p>
+    <p>- Deployment and Configuration of computer hardware and peripherals in faculty/staff office and labs.  </p>
+    <p>- Reimage lab/teacher workstation devices provide firmware update’s when necessary.  </p>
+    <p>- Maintain classroom and laboratory hardwares and softewares.</p>
+
+    <div class = "center">
+        <h3> Endpoint Services Student Worker </h3>
+        <h4> <small>IT Support Center/Endpoint Services, BSU, Bridgewater, MA | August 2021 – January 2024 </small></h4>
+    </div>
+    <p>- Provide technical support to faculty and students on campus for issues related to student and faculty accounts </p>
+    <p>- Provide immediate in person technical support and troubleshooting for “Classroom Emergency”. </p>
+    <p>- Perform MFA and password resets using Microsoft Azure and Active Directory for faculty and student accounts </p>
+    <p>- Student lead for installations and de-installations of classroom and meeting space equipment. </p>
+    <p>- Document, maintain, monitor, and resolve ticket requests using internal ticketing system. </p>
+    <p>- Maintained Endpoint Services audio, visual and computer hardware inventory. Provided real time updates to the University inventory facility. </p>
+    <p>- Deployment and Configuration of computer hardware and peripherals in faculty/staff office and labs </p>
+    <p>- Reimage lab/teacher workstation devices provide firmware update’s when necessary.  </p>
+
+    <div class = "center">
+        <h3> COMP-151 Teaching Assistant </h3>
+        <h4> <small>Computer Science Department, BSU, Bridgewater, MA | September 2022 – December 2022 </small></h4>
+    </div>
+    <p>- Evaluated students’ needs individually and provided effective supplementary material tailored towards areas of difficulties in the assigned courses – Intro to Programming. </p>
+    <p>- Held independant sessions for labs and assignments.</p>
+    <p>- Assisted students with homework, projects, quizzes and exams. </p>
+
+    <div class = "center">
         <h2> Relevent Projects </h2>
     </div>
+
+    <div class = "center">
+        <h3> MeteoriteDataFilter Project 1.2</h3>
+        <h4> <small>COMP-390 Software Engineering: Fall 2023 </small></h4>
+    </div>
+    <p>- This program allows you filter and output NASA meteorite data contained from a text file. The data in the text file must be organized in a specific format: Required format: </p>
+    <p>--- Each line of the text file must descibe a single meteorite data entry </p>
+    <p>--- For each meteorite line there must be 11 data fields seperated by tabs </p>
+    <p>----ex: name id nametype recclass mass (g) fall year reclat reclong GeoLocation States Counties </p>
+    <p>- Required Libraries: </p>
+    <p>--- pytest </p>
+    <p>--- datetime</p>
+    <p>--- xlwt </p>
+    <p>- To Run: </p>
+    <p>-- 1. Run the main() program</p>
+    <p>-- 2. User will be prompted to enter a valid text file</p>
+    <p>-- 3. User will be prompted for how they wish to edit the file (ex. read, write, append)</p>
+    <p>-- 4. Next the user will be prompted to filter the meteorite data by mass or year</p>
+    <p>-- 5. Depending on the selection, the user will be prompted to enter a upper and lower bound limit for mass; or by the year the meteorite fell</p>
+    <p>-- 6. Finally user will be prompted for their desired output option:</p>
+    <p>--- To the terminal </p>
+    <p>--- To a text file </p>
+    <p>--- To an excel file </p>
+
+    <div class = "center">
+        <h3> MatrixMultiplication-JavaSockets  </h3>
+        <h4> <small>COMP-462 Distributed Systems: Spring 2023 </small></h4>
+    </div>
+    <p>- Uses JavaSockets module to establish a client-server connection on local ports </p>
+    <p>- Client Side:  </p>
+    <p>--- Generates 2 sqaure matrices based on cmd line argument, populated with random ints between 0 and 100. </p>
+    <p>--- Sends both matrix objects to server.</p>
+    <p>--- Recieves product of both matrices and displays result to screen.</p>
+    <p>- Server Side:</p>
+    <p>--- Accepts both matrix objects and generates a third matrix of the same size populated with the product of matrix1 and matrix2.</p>
+    <p>--- Returns product matrix to client side connection.</p>
+    <p>--- terminates connection after returning final calculation.</p>
+    <p>- To Run: </p>
+    <p>--- 1. TERMINAL ONE: run the GreetServer.java program, java GreetServer.java: this will begin listening for the GreetClient.java initial message.</p>
+    <p>--- 2. TERMNIAL TWO: run the GreetClient.java program as Java GreetClient.java (size of square array): Generates both matrices and establishes connection with server.</p>
+
+    <div class = "center">
+        <h3> Operating System – Class Project  </h3>
+        <h4> <small>COMP-350 Fall 2022 </small></h4>
+    </div>
+    <p>- Designed an Operating System in a Linux VirtualBox using C which handles all the fundamental roles of an OS </p>
+    <p>- Built an Operating System to handle system calls, load files and execute programs, using assembly created the Kernel and C to create the Shell. </p>
+    <p>- Coded the Kernel and the Shell in C utilizing command line and standard programs. </p>
 </body> 
 </html>
