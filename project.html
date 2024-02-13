@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <title>Bootstrap Example</title>
+  <style>
+    footer {
+		margin-top: auto;
+		text-align: center;
+	}
+  @media only screen and (max-width:720px)
+  {
+    img {display: none;}
+  }
+  h1 {text-align: center;}
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Relevent Projects</h1>
+  </header>
+
+  <div>
+      <main class="container"> <!-- centered -->
+        <div class="row">
+            <div class="col-lg-4" >
+            <!--Left Column-->
+            <h3> MeteoriteDataFilter Project 1.2</h3>
+            <h4> <small>COMP-390 Software Engineering: Fall 2023 </small></h4>
+            <p>- This program allows you filter and output NASA meteorite data contained from a text file. The program sorts the data based on user input then outputs to a location of the users choice, ex: terminal, excel file, or text file. The data in the text file must be organized in a specific format: </p>
+            <p> Required format: </p>
+                --- Each line of the text file must descibe a single meteorite data entry </p>
+                --- For each meteorite line there must be 11 data fields seperated by tabs </p>
+                ----ex: name id nametype recclass mass (g) fall year reclat reclong GeoLocation States Counties </p>
+
+            </div>
+            
+            <div class="col-lg-4">
+            <!--Middle Column-->
+            <h3> MatrixMultiplication-JavaSockets  </h3>
+            <h4> <small>COMP-462 Distributed Systems: Spring 2023 </small></h4>
+            <p>- Uses JavaSockets module to establish a mock client-server connection on local ports, then from the client side 
+                Generates 2 square matrices based on cmd line argument, populated with random ints between 0 and 100. Then 
+                sends both matrix objects to server.</p>
+            <p> On the Server Side:</p>
+            <p>- The server accepts both matrix objects and generates a third matrix of the same size populated with the product of matrix1 and matrix2.
+            Then returns product matrix to client side connection. where the product of both matrices is displayed to the screen.</p>
+            <p> Connection terminates connection after returning final calculation.</p>
+            
+
+            </div>
+            <div class="col-lg-4">
+            <!--Right Column-->
+                <h3> Operating System – Class Project  </h3>
+                <h4> <small>COMP-350 Fall 2022 </small></h4>
+                <p>- Designed an Operating System in a Linux VirtualBox using C which handles all the fundamental roles of an OS </p>
+                <p>- Built an Operating System to handle system calls, load files and execute programs, using assembly created the Kernel and C to create the Shell. </p>
+                <p>- Coded the Kernel and the Shell in C utilizing command line and standard programs. </p>
+            </div>
+      </div>
+      </main>
+
+    <footer>
+      © 2016 by Bridgewater State University. All Rights Reserved.
+    </footer>
+  </div>
+
+
+
+</body>
+
+</html>
